@@ -26,15 +26,15 @@ class Student {
         age = a;
     }
 
-    string getName(){
+    string getName() const {
         return name;
     }
 
-    int getAge(){
+    int getAge()const {
         return age;
     }
 
-    void printStudentInfo(){
+    void printStudentInfo() const {
         cout << "STUDENT INFO: " << endl;
         cout << "Student Name: " << name << endl;
         cout << "Student Age: " << age << endl;
